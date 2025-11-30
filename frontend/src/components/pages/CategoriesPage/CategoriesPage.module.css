@@ -1,0 +1,47 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.categoriesSection{
+    padding: 80px 0;
+}
+
+.categoriesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+}
+
+.categoryCard{
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.categoryCard:hover{
+    transform: translateY(-5px);
+}
+
+.categoryImage{
+    height: 392px;
+    object-fit: cover;
+}
+
+.sectionTitle{
+    padding: 16px;
+    font-size: 64px;
+    font-weight: 600;
+    color: #282828;
+}
+
+.categoryTitle {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #282828;
+    text-align: center;
+}

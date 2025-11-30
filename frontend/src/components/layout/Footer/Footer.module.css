@@ -1,0 +1,74 @@
+.footer {
+    background: #fff;
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #282828;
+}
+
+.contactItem, .contactItemSpan {
+    margin-bottom: 32px;
+    background-color: #F1F3F4;
+    padding: 32px;
+    border-radius: 10px;
+    width: 780px;
+}
+
+.contactItemSpan{
+    width: 548px;
+}
+
+.contactItem span, .contactItemSpan span {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #8B8B8B;
+}
+
+.contactRow{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.contactItem p, .contactItemSpan p {
+    font-size: 48px;
+    color: #282828;
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    transition: opacity 0.3s;
+}
+
+.socialLink:hover {
+    opacity: 0.7;
+}
+
+.mapSection {
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,170 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #282828;
+}
+
+.filters {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.filterGroup {
+    display: flex;
+    gap: 16px;
+}
+
+.filterGroup label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.priceInput {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 112px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.checkboxLabel input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    accent-color: #339933;
+    cursor: pointer;
+    border-color: #DDDDDD;
+}
+
+.checkboxLabel input[type="checkbox"]:checked {
+    background: #339933;
+    border-color: #339933;
+}
+
+.sortSelect {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    width: 200px;
+}
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.productCard {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #DDDDDD;
+    overflow: hidden;
+    transition: transform 0.3s;
+    position: relative;
+    width: 316px;
+}
+
+.productImageContainer {
+    position: relative;
+}
+
+.productImage {
+    width: 100%;
+    height: 284px;
+    object-fit: cover;
+}
+
+.addToCartBtn {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    width: 284px;
+    transform: translateX(-50%);
+    background: #339933;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 10;
+}
+
+
+
+.addToCartBtn:hover{
+    background: #282828;
+    color: #FFFFFF;
+    transition: background 0.3s;
+}
+
+.productCard:hover .addToCartBtn {
+    opacity: 1;
+}
+
+.productInfo {
+    padding: 20px;
+}
+
+.productTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.productLink {
+    text-decoration: none;
+}
+
+.prices {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #8B8B8B;
+    font-size: 20px;
+}
+
+.newPrice {
+    color: #282828;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.price {
+    color: #282828;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 24px;
+    padding: 60px;
+    color: #333;
+}

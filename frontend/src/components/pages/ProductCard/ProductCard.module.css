@@ -1,0 +1,138 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.productCard {
+    display: flex;
+    gap: 36px;
+    align-items: flex-start;
+}
+
+.imageSection {
+    flex: 1;
+}
+
+.productImage {
+    width: 100%;
+    max-width: 780px;
+    height: 572px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.infoSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.productTitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #282828;
+}
+
+.prices {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #8B8B8B;
+    font-size: 40px;
+}
+
+.newPrice {
+    color: #282828;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.price {
+    color: #282828;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.quantitySection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quantitySection label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.quantityControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.quantityControls button {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #ddd;
+    background: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8B8B8B;
+}
+
+.quantityControls button:hover {
+    background: #e0e0e0;
+}
+
+.quantityControls span {
+    font-size: 24px;
+    font-weight: 500;
+    min-width: 30px;
+    text-align: center;
+}
+
+.addToCartButton {
+    background: #339933;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 316px;
+}
+
+.addToCartButton:hover {
+    background: #282828;
+}
+
+.descriptionSection h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #282828;
+    margin-bottom: 10px;
+}
