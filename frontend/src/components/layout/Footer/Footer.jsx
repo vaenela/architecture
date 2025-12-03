@@ -38,7 +38,15 @@ export default function Footer() {
           </div>
                 
           <div className={styles.mapSection}>
-            <img src="src/assets/map.png" alt="" />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.6467965765533!2d39.7094828!3d47.2374435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDE0JzE0LjgiTiAzOcKwNDInNDMuNCJF!5e0!3m2!1sru!2sru!4v1700000000000!5m2!1sru!2sru"
+                width="100%"
+                height="400"
+                style={{ border: 0, borderRadius: '8px' }}
+                allowFullScreen
+                loading="lazy"
+                title="Google Map"
+              />
           </div>
         </div>
       </footer>
