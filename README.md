@@ -12,8 +12,8 @@
 #### 1. Клонирование и настройка
 ```bash
 # Клонирование репозитория
-git clone <repository-url>
-cd ecommerce-app
+git clone https://github.com/vaenela/architecture.git
+cd architecture
 
 # Установка зависимостей для обеих частей
 npm run install:all
