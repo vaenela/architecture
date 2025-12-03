@@ -61,7 +61,7 @@ architecture/
 ### План миграции на PostgreSQL
 ```bash
 -- 1. Создание базы данных
-CREATE DATABASE ecommerce;
+CREATE DATABASE ecommerce
 
 -- 2. Настройка подключения в .env
 DATABASE_URL=postgresql://username:password@localhost:5432/ecommerce
