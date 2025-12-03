@@ -10,6 +10,7 @@ import SalesPage from "./components/pages/SalesPage/SalesPage";
 import Admin from "./components/pages/Admin/Admin";
 import Register from "./components/pages/Register/Register";
 import Login from "./components/pages/Login/Login";
+import NotFoundPage from "./components/pages/NotFoundPage/NotFoundPage";
 
 export const router = createBrowserRouter([
     {
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
                 path: 'admin',
                 Component: Admin
             },
+            {
+                path: '*',
+                Component: NotFoundPage
+            }
         ]
     },
 ]);
